@@ -1,0 +1,204 @@
+body {
+    text-align: center;
+}
+
+.head {
+    color: rgb(84, 186, 230);
+    font-weight: 1000;
+    font-size: large;
+    font-style: oblique;
+    height: 2em;
+}
+
+.phone {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+}
+
+.a {
+    color: crimson;
+    font-weight: 100;
+    font-size: small;
+    font-style: oblique;
+}
+
+.code {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+}
+
+.b {
+    color: crimson;
+    font-weight: 100;
+    font-size: small;
+    font-style: oblique;
+}
+
+.post {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+}
+
+.c {
+    color: crimson;
+    font-weight: 100;
+    font-size: small;
+    font-style: oblique;
+}
+
+.verify {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    position: relative;
+    left: 2.8em;
+    letter-spacing: 0.2em;
+}
+
+.sex {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    position: relative;
+    right: 4.2em;
+    top: 0.8em;
+    letter-spacing: 0.5em;
+}
+
+.sex>span {
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.birth {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    position: relative;
+    top: 1em;
+    right: 0.8em;
+    letter-spacing: 0.5em;
+}
+
+.age {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    height: 2em;
+    position: relative;
+    top: 1em;
+    right: 0.8em;
+    letter-spacing: 0.5em;
+}
+
+.place {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    height: 2em;
+    position: relative;
+    top: 1em;
+    right: 0.5em;
+    letter-spacing: 0.5em;
+}
+
+.edu {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    height: 2em;
+    position: relative;
+    top: 1em;
+    right: 4.1em;
+    letter-spacing: 0.2em;
+}
+
+.wage {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    height: 2em;
+    position: relative;
+    top: 1em;
+    right: 1.1em;
+    letter-spacing: 0.5em;
+}
+
+.o {
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.like {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    height: 2em;
+    position: relative;
+    top: 1em;
+    right: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.aa {
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.bb {
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.cc {
+    font-weight: 100;
+    letter-spacing: normal;
+}
+
+.picture {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    height: 2em;
+    position: relative;
+    top: 1em;
+    right: 5.9em;
+    letter-spacing: 0.1em;
+}
+
+.word {
+    color: darkslategrey;
+    font-weight: 900;
+    height: 2em;
+    height: 2em;
+    position: relative;
+    top: 4.5em;
+    right: 0.8em;
+    letter-spacing: 0.5em;
+}
+
+.p {
+    position: relative;
+    left: 5.6em;
+}
+
+.w {
+    letter-spacing: 0.2em;
+    position: relative;
+    right: 4.7em;
+}
+
+.s {
+    position: relative;
+    top: 1em;
+    right: 0.8em;
+}
+
+.t {
+    position: relative;
+    top: 17em;
+    right: 6em;
+}

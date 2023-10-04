@@ -1,0 +1,180 @@
+:root {
+  --primary-color: #31c27c;
+}
+
+/*将所有悬浮选中文字的颜色更改为绿色*/
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: Microsoft Yahei;
+  font-size: 14px;
+  /* min-width: 1000px; */
+}
+
+/*将整个网页的主体外边距设置为0，背景颜色设置为白色，字体样式设置为微软雅黑，设置字体颜色为14个像素*/
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*使用标签选择器，将所有超链接跳转的字体显示为无文本修饰样式，并将其颜色设置为黑色*/
+header {
+  height: 90px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+/*将头部div块高度设置为90个像素，背景颜色设置为白色，使用弹性盒子布局，将其中元素居中*/
+.header-inner,
+main {
+  /* width: 1200px; */
+  padding: 20px;
+  margin: auto;
+}
+
+/*将表头图片和网页主体内边距设置为20个像素，并居中*/
+.tag-list {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+/*将网页导航栏的上外边距设置为50个像素，下外边距设置为15个像素*/
+.tag-item {
+  display: inline-block;
+  padding: 0 8px;
+  margin-right: 24px;
+  line-height: 26px;
+  color: #000;
+  text-decoration: none;
+}
+
+/*创建水平导航链接，将其上下内边距设置为0，左右内边距设置为8个像素*/
+.tag-active {
+  background: var(--primary-color);
+  color: white;
+}
+
+/*点击水平导航栏时，点击内容背景颜色设置为悬浮时的绿色，字体颜色设置为白色*/
+.tag-item:not(.tag-active):hover {
+  color: var(--primary-color);
+}
+
+/*鼠标悬浮在导航内容上时，字体颜色更改为绿色*/
+.nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*将网页主体部分的每个图片下的文字都设置成一行一段不换行，并隐藏溢出*/
+.playlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 45px 15px;
+  margin-bottom: 45px;
+}
+
+/*将网页主体中，一个个图片进行网格布局并定义网格尺寸轨道大小*/
+.cover-wrap {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/*将每一个图片设置为弹性盒子，位置相较于原先偏移固定*/
+.cover-img {
+  width: 100%;
+  transition: all 0.75s;
+}
+
+/*设置图片动画时宽度为100%，时间为0.75秒*/
+.cover-mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+/*设置图片动画时覆盖图片的阴影和覆盖时间*/
+.cover-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -35px;
+  margin-top: -35px;
+  opacity: 0;
+  transform: scale(0.7);
+  transition: all 0.5s;
+}
+
+/*设置图片动画的过程*/
+.cover-wrap:hover .cover-mask {
+  opacity: 0.2;
+}
+
+.cover-wrap:hover .cover-play {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.cover-wrap:hover .cover-img {
+  transform: scale(1.07);
+}
+
+.album-title:hover {
+  color: var(--primary-color);
+}
+
+.album-author {
+  color: #999;
+  line-height: 1.6;
+}
+
+.album-author:hover {
+  color: var(--primary-color);
+}
+
+.album-time {
+  color: #999;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-item {
+  display: inline-block;
+  color: #a2a2a2;
+  line-height: 50px;
+  padding: 0 20px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+/*将页脚跳转行定义为水平导航栏*/
+.page-current,
+.page-item:not(.page-more):hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+/*将页脚跳转其他页面的标签浮动时的背景颜色定义为绿色，字体颜色定义为白色*/
+footer {
+  margin-top: 60px;
+  background: #333;
+  height: 200px;
+}
+
+/*设置页脚的上外边距为60个像素，背景颜色为棕色，高度为200像素*/
